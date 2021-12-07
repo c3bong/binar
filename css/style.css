@@ -1,0 +1,194 @@
+/* setting huruf dari binar */
+h1 {
+  /* h1 di figma uppercase semua */
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: bold;
+  font-size: 80px;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+h3 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+body, h4 {
+  /* di figma semua huruf putih kecuali highlight, name, dan text-main-button */
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  color: white;
+}
+
+.sub-text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+}
+
+.text-main-button {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight:bolder;
+  color: black;
+}
+
+.navigation, a {
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+  color:white;
+}
+/* akhir setting huruf dari binar */
+
+/* setting huruf */
+.highlight {
+  text-transform: uppercase;
+  color: #ffb548;
+}
+
+.name {
+  text-transform: capitalize;
+  color: #ffb548;
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  font-weight:bolder;
+}
+
+
+/* akhir setting huruf */
+
+/* setting margin & tanda baca */
+.mt-main1{
+  margin-top: 30vh;
+}
+
+.mt-main2{
+  margin-top: 45vh;
+}
+
+.mt-main3{
+  margin-top: 20vh;
+}
+
+.bullet-full{
+  list-style-type: disc;
+}
+
+.bullet-blank{
+  list-style-type: circle;
+}
+
+/* akhir setting margin & tanda baca */
+
+/*  setting button */
+.btn1{
+  margin-top: 60px;
+  padding:15px 30px;
+}
+.btn2{
+  height:50px;
+}
+
+/* akhir setting button */
+
+/* background */
+.landing1{
+  background-image: url("../images/main-bg.jpg");
+  height:960px;
+  object-fit: cover;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.landing2{
+  background-image: url("../images/the-games-bg.jpg");
+  height:960px;
+  object-fit: cover;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.landing3{
+  background-image: url("../images/features.jpg");
+  height:960px;
+  object-fit: cover;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.landing4{
+  background-image: url("../images/Rectangle4.png"),url("../images/requirements.jpg");
+  height:960px;
+  object-fit: cover;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.landing5{
+  background-image: url("../images/top-score-bg.png"),url("../images/black-paper.jpg");
+  height:960px;
+  object-fit: cover;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.landing6{
+  background-color: rgb(10, 10, 10);
+  height:960px;  
+}
+
+/* akhir background */
+
+/* setting lainnya */
+.card{
+  max-width: 24rem;
+  height: 220px;
+}
+
+.img-top-score{
+  width: 4rem;
+  height:auto;
+}
+
+.last-img{
+  height:656px;
+}
+
+.form-control{
+  width: 100rem;
+  height:50px;
+}
+/* akhir setting lainnya */
+
+/* tambahan setting resposive */
+@media (max-width:767.98px) {
+  .landing1{
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+    
+}
+
+@media (max-width:576px) {
+  .box{
+    padding:50px;
+    background-color: rgba(0,0,0,0.5);
+    
+  }
+
+  .bullet-full {
+    display: none;
+  }
+  .bullet-blank{
+    display: none;
+  }
+    
+}
