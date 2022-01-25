@@ -1,0 +1,50 @@
+    <!-- header -->
+    <header>
+        <div class="text1 text-center">ROCK PAPER SCISSORS
+        </div>
+    </header>
+    <!-- game suit -->
+    <div>
+        <div class="container1">
+            <div class="container2">
+                <div>PLAYER</div>
+                <div class="p-score">0</div>
+                <div class=p-pick><br>
+                </div>
+                <div class="picked" onclick="mulai('batu')">
+                    <img src="../images/batu.png">
+                </div>
+                <div class="picked" onclick="mulai('gunting')" >
+                    <img src="../images/gunting.png">
+                </div>
+                <div class="picked" onclick="mulai('kertas')" >
+                    <img src="../images/kertas.png">
+                </div>
+            </div>
+            <div class="container2">
+                <div class="result">VS</div>
+            </div>    
+            <div class="container2">
+                <div>Computer</div>
+                <div class="c-score">0</div>
+                <div class="c-pick"><br>
+                </div>
+                <div class="comPick click" >
+                    <img src="../images/batu.png">
+                </div>
+                <div class="comPick click" >
+                    <img src="../images/gunting.png">
+                </div>
+                <div class="comPick click" >
+                    <img src="../images/kertas.png">
+                </div>
+            </div>
+          </div>
+    </div>
+    <!-- replay -->
+    <div>
+        <a onClick="window.location.reload()">
+            <img src="../images/refresh.png" class="refresh">
+        </a>
+    </div>
+    <script src="../js/scriptTrial.js"></script>

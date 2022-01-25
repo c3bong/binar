@@ -24,6 +24,7 @@ body, h4 {
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
   color: white;
+  background-color: black;
 }
 
 .sub-text {
@@ -165,6 +166,10 @@ body, h4 {
 .form-control{
   width: 100rem;
   height:50px;
+}
+
+:root{
+  background-color: black;
 }
 /* akhir setting lainnya */
 
